@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: rgb(196, 235, 196);
+}
+.bg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card1{
+width: 500px;
+height: 400px;
+padding: 10px;
+align-items: center;
+justify-content: center;
+margin-top: 13rem;
+background-color: cornsilk;
+}
+
+#cardbody1{
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#cardbody1 h4{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: zrgb(237, 250, 237);
+}
+
+.btn-login{
+    margin-top: 2rem;
+    width: 100%;
+    background-color: darkolivegreen;
+}
+
